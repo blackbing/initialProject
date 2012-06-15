@@ -1,0 +1,73 @@
+/* line 4, ../sass/style.scss */
+body {
+  background: #00000d url("../images/bg.jpg") no-repeat;
+  background-size: cover;
+  padding: 40px 0;
+  -webkit-perspective: 1000px;
+}
+
+/* line 11, ../sass/style.scss */
+#main_box {
+  position: relative;
+  background: url("../images/potter.jpg") center no-repeat;
+  width: 800px;
+  min-height: 1480px;
+  -webkit-box-shadow: white 0 0 100px;
+  -moz-box-shadow: white 0 0 100px;
+  box-shadow: white 0 0 100px;
+  -webkit-transform: rotateY(45deg);
+}
+
+/* line 20, ../sass/style.scss */
+#main_box.rollback {
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  -webkit-transform: rotateY(0);
+}
+
+/* line 25, ../sass/style.scss */
+#main_box > .pic-1 {
+  position: relative;
+  top: 503px;
+  left: 218px;
+  width: 570px;
+  height: 267px;
+  overflow: hidden;
+}
+
+/* line 34, ../sass/style.scss */
+.pic-1 > img {
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+
+/* line 40, ../sass/style.scss */
+.pic-1 > img.gif {
+  display: none;
+}
+
+/* line 44, ../sass/style.scss */
+.pic-2 {
+  position: relative;
+  width: 274px;
+  height: 198px;
+  left: 510px;
+  top: 640px;
+  overflow: hidden;
+}
+
+/* line 53, ../sass/style.scss */
+.pic-2 > img {
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+
+/* line 59, ../sass/style.scss */
+.pic-2 > img.gif {
+  display: none;
+}
