@@ -1,3 +1,3 @@
 #/bin/sh
-coffee -wc -o javascript/ coffee/ &
+coffee -wc -o javascripts/ coffee/ &
 compass watch .
